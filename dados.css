@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    width: 100%;
+    height: 1024px;
+    position: fixed;
+    background-image: url('assets/f3a37b35d6fba1f16ccda07c3de71b0647e71c05.jpg');
+    background-size: cover;       
+    background-position: center;
+    height: 1024px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dados-pessoais {
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 40px;
+    letter-spacing: 10px;
+	font-size: 50px;
+    font-family: 'Irish Grover';
+}
+
+.nome {
+    font-family: 'Irish Grover';
+    align-items: center;
+}
