@@ -21,11 +21,52 @@
     align-items: center;
     margin-top: 40px;
     letter-spacing: 10px;
-	font-size: 50px;
+	font-size: 60px;
     font-family: 'Irish Grover';
 }
 
-.nome {
+
+.digitar {
+    font-size: 40px;
     font-family: 'Irish Grover';
-    align-items: center;
 }
+
+input[type="submit"]:hover {
+    background-color: #00ff0d;
+    animation: pulsar 1.2s infinite ease-in-out;
+}
+
+input[type="submit"] {
+    font-family: 'Irish Grover';
+    font-size: 50px;
+    padding: 20px;
+    border-radius: 5%; 
+    background-color: grey;
+    cursor: pointer;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    opacity: 70%;
+}
+
+@keyframes pulsar {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.10);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+    

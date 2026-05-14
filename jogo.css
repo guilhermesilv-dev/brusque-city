@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    width: 100%;
+    height: 1024px;
+    position: fixed;
+    background-image: url(assets/f3a37b35d6fba1f16ccda07c3de71b0647e71c05.jpg);
+    background-size: cover;       
+    background-position: center;
+    height: 1024px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pergunta {
+    text-align: center;
+    width: 800px;
+    font-family: 'Irish Grover';
+    font-size: 60px;
+    margin-top: 40px;
+    letter-spacing: 7px;
+}
+
+.voltar {
+    width: 120px;
+    font-size: 30px;
+    font-family: 'Irish Grover';
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: rgb(131, 78, 19);
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.voltar:hover {
+    background-color: rgb(255, 153, 0);
+}
+
+.container {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    left: 50%;
+    top: 55%;
+    transform: translateX(-50%);
+    gap: 600px;
+}
+
+.btn {
+    font-size: 60px;
+    font-family: 'Irish Grover';
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#btnVerdadeiro {
+    background-color: green;
+    cursor: pointer;
+
+}
+
+#btnVerdadeiro:hover {
+    background-color: rgb(0, 255, 0);
+    animation: pulsar 1.2s infinite ease-in-out;
+}
+
+@keyframes pulsar {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.10);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#btnFalso {
+    cursor: pointer;
+    background-color: rgb(92, 0, 0);
+}
+
+#btnFalso:hover {
+    background-color: red;
+    animation: pulsar 1.2s infinite ease-in-out;
+}

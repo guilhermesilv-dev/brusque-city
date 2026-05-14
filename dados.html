@@ -13,11 +13,23 @@
 <body>
     <div class="body">
     <div class="dados-pessoais"><h1>DADOS PESSOAIS</h1></div>
-    <div>
-        <h2 class="nome">NOME</h2>
-        <h3 class="idade">IDADE</h3>
-        <h4 class="escola">ESCOLA</h4>
-    </div>
+  
+
+    <form action="jogo.html" class="digitar">
+        <label for="nome">NOME:</label><br>
+        <input required type="text" id="nome" name="nome" placeholder="DIGITE SEU NOME COMPLETO"><br><br>
+
+        <label for="idade">IDADE:</label><br>
+        <input required type="number" id="idade" name="idade" placeholder="DIGITE SUA IDADE"><br><br>
+
+        <label for="escola">ESCOLA:</label><br>
+        <input required type="text" id="escola" name="escola" placeholder="NOME DA SUA ESCOLA"><br><br>
+
+        <input class="botao-continuar" id="continueButton" type="submit" value="CONTINUAR">
+    </form>
     
 </body>
+
+<script src="script.js"></script>
+
 </html>
