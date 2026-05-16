@@ -1,8 +1,15 @@
 
 .body {
-width: 100%;
-height: 1024px;
-position: fixed;
+    width: 100%;
+    height: 1024px;
+    position: fixed;
+    background-image: url(assets/65f77851728f20b72b2bc2cf4cc8cc4a08c37022.jpg);
+    background-size: cover;       
+    background-position: center;
+    height: 1024px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .start {
