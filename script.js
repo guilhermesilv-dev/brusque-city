@@ -8,5 +8,7 @@
     });
 });
 
-
+ document.getElementById('btnFalso').addEventListener('click', function() {
+        window.location.href = 'final.html'; 
+    });
 
